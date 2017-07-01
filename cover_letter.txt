@@ -1,0 +1,17 @@
+Dear Editor,
+
+I, Nadia Figueroa, on behalf of my co-authors, hereby submit the manuscript of our recent work entitled “Transform-Invariant Non-Parametric Clustering of Covariance Matrices and its Application to Unsupervised Joint Segmentation and Action Discovery” to the Journal of Machine Learning Research. 
+
+In this work, ... abstract...
+
+Why it's relevant to the journal ...
+
+Choosen action editors...
+
+
+I hereby certify that this work is original in its content, not under review or published at any other journal/conference and does not impose any conflict of interest.
+ 
+
+With best regards, 
+
+Nadia Figueroa

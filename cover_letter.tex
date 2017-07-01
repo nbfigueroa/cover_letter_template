@@ -1,0 +1,55 @@
+\documentclass[10pt,stdletter]{newlfm}
+\usepackage{charter}
+
+\widowpenalty=1000
+\clubpenalty=1000
+
+\newsavebox{\Luiuc}
+\sbox{\Luiuc}{%
+	\parbox[b]{1.6in}{%
+		\vspace{0.5in}
+		\includegraphics[scale=0.25]
+		{./EPFL-Logo-bitmap/JPG/EPFL-Logo-RVB-55.jpg}%
+	}%
+}%
+\makeletterhead{Uiuc}{\Rheader{\usebox{\Luiuc}}}
+
+\newlfmP{headermarginskip=-10pt}
+\newlfmP{sigsize=50pt}
+\newlfmP{dateskipafter=40pt}
+\newlfmP{addrfromphone}
+\newlfmP{addrfromemail}
+\PhrPhone{Phone}
+\PhrEmail{Email}
+
+\lthUiuc
+
+\namefrom{Nadia Figueroa}
+\addrfrom{\small
+		Learning Algorithms and Systems Laboratory (LASA)\\
+       	\small \'Ecole Polytechnique F\'ed\'erale de Lausanne (EPFL)\\
+       	\small Lausanne, Switzerland - 1015.
+}
+\phonefrom{\small +41 21 69 31060 }
+\emailfrom{\small nadia.figueroafernandez@epfl.ch}
+
+\addrto{%
+Faculty Search Committee\\
+Department of Something\\
+Some University\\
+University Address}
+
+\greetto{To Whom It May Concern,}
+\closeline{Sincerely,}
+\begin{document}
+\begin{newlfm}
+
+I am writing to apply for the position of \ldots{}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Thank you for your consideration.  I look forward to
+hearing from you.
+
+\end{newlfm}
+\end{document}
